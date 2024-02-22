@@ -1,0 +1,31 @@
+//line 6의 (function(){})(); 은 즉시실행함수
+//function(){}는 본래 이름 없으면 호출 불가.
+//다만, function 전체를 괄호로 묶으면 호출이 가능. 이를 익명함수 or 즉시실행함수라고 함
+//ex) (function(){})(); 이런 식... 자기를 ()로 묶고, 자기 스스로를 호출하는 ();를 끝에 추가하면 됨.
+
+var replyService=(function(){
+	function add(reply, callback, error){
+		
+		$.ajax({
+			type : 'post', // 전송방식
+			url : '/replies/new', // 서버 주소
+			data : JSON.stringify(reply), // (reply)를 작성하면 이것을 JSON형태로 전송하겠다.
+			contentType : "application/json; charset=utf-8", // 서버로 전송되는 데이터의 형식
+			success : function(result, status, xhr) {
+				// 성공했을 때 할 일. 외부에서 함수로 정의한 후, 함수의 이름을 callback에 전달
+				if (callback) { 
+					callback(result); // 함수 호출
+				}
+			},
+			error : function(xhr, status, er) {
+				// 에러났을 때 할 일. 외부에서 함수로 정의한 후, 함수의 이름을 error에 전달
+				if (error) {
+					error(er); //함수호출
+				}
+			}
+		})
+	
+	}
+	
+	return{add:add}; // 객체를 리턴
+})();

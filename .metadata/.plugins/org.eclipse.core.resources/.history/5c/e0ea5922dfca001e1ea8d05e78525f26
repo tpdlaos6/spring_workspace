@@ -1,0 +1,25 @@
+package org.zerock.mapper;
+
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import lombok.extern.log4j.Log4j;
+
+@RunWith(SpringRunner.class)
+@ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
+@Log4j
+
+public class BoardMapperTest {
+	@Setter(onMethod_= @Autowired)
+	private BoardMapper mapper; // 주입
+	
+	@Test
+	public void testGetList() {
+		// getList()의 return같은 List<BoardVO>
+		// List에서 한 개씩 꺼내서 boardVO() 매개변수에 저장한 다음 log.info로 출력
+		// -> 는 람다식.......... 자바에서도 람다식을.......
+		mapper.getList().forEach(boardVo -> log.info(boardVo));
+	}
+
+}

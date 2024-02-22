@@ -1,0 +1,17 @@
+INDEX VERSION 1.131
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2379054458.index
+\EX03\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2462777764.index
+\EX03\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\728069421.index
+\EX03\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\154809224.index
+\HelloWorld\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1688465784.index
+\HelloWorld\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\12833297.index
+\HelloWorld\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2161021950.index
+\HelloWorld\src\main\java
+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3729117167.index
+\EX03\src\main\java

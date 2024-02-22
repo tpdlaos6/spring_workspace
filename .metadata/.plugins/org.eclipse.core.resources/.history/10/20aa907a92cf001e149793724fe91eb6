@@ -1,0 +1,27 @@
+var replyService=(function(){
+	function add(reply, callback, error){
+		
+		$.ajax({
+			type : 'post', // 전송방식
+			url : '/replies/new', // 서버 주소
+			data : JSON.stringify(reply), // (reply)를 작성하면 이것을 JSON형태로 전송하겠다.
+			contentType : "application/json; charset=utf-8", // 서버로 전송되는 데이터의 형식
+			success : function(result, status, xhr) {
+				// 성공했을 때 할 일. 외부에서 함수로 정의한 후, 함수의 이름을 callback에 전달
+				if (callback) { 
+					callback(result); // 함수 호출
+				}
+			},
+			error : function(xhr, status, er) {
+				// 에러났을 때 할 일. 외부에서 함수로 정의한 후, 함수의 이름을 error에 전달
+				if (error) {
+					error(er); //함수호출
+				}
+			}
+		})
+	
+	}
+	ㅇㄹㄹ()
+	
+	return{add:add}; // 객체를 리턴
+})();

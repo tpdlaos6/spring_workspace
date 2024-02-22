@@ -1,0 +1,9 @@
+INDEX VERSION 1.4+C:\git_kdigital\spring_workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2462777764.index
+3233202716.index
+3554298479.index
+2380175872.index
+1705764242.index
+2503103797.index
+3617815676.index
+763885123.index

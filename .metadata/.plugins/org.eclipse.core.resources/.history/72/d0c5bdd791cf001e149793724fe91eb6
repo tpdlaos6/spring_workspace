@@ -1,0 +1,12 @@
+var replyService=(function(){
+	function add(reply, callback, error){
+		
+		$.ajax({
+			type: 'post', // 전송방식
+			
+		});
+	
+	}
+	
+	return{add:add};
+})();
