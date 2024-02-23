@@ -63,18 +63,14 @@
 					<!-- Search Form------------------------------------------------------------------------------>
 					<div class=row>
 						<div class="col-lg-12">
-							<form id="amountForm" method="get" class="pull-right"> 
-                        <select class="amountChoice" name="amountcount" >
-                          <option value="">--</option>
-                           <option value="10">10개</option>
-                           <option value="15">15개</option>
-                           <option value="20">20개</option>
-                        </select>
-                     </form>
-							
-						
-						
 							<form id='searchForm' methdod='get'>
+		                        <select name="amounttype" class='pull-right'>
+			                        <option value="">--</option>
+			                        <option value="10">10개</option>
+			                        <option value="15">15개</option>
+			                        <option value="20">20개</option>
+		                        </select>
+		                        
 								<select name="type">
 									<option value="">--</option>
 									<option value="T">제목</option>
@@ -156,7 +152,7 @@
             
     <script>
 
-    	$(document).ready(function(){}
+    	$(document).ready(function(){
     		
     		var result='<c:out value="${result}"/>';
     		
@@ -174,7 +170,24 @@
     			$("#myModal").modal("show");
     		}
     		
- 		})
+    	/**희민꺼 test********************************************
+            $("#amounttype").on("change", function(e){
+            	
+            })
+            	
+            	
+            	
+            	
+            	
+                var selectedValue = $(this).val();
+                // 이미 존재하는 input 요소의 값을 변경합니다.
+                actionForm.find("input[name='amount']").val(selectedValue);
+                // form의 action을 변경합니다.
+                actionForm.attr("action", "/board/list");
+                // form을 제출합니다.
+                actionForm.submit();
+            });
+    	***********************************************/	
     		
     		/*등록버튼 event처리*******************************************************/
     		$("#regBtn").on("click",function(){
