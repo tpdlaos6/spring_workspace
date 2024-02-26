@@ -2,4 +2,5 @@
 <aop-reference-model>
 <aop-project name="EX03"/>
 <aop-project name="HelloWorld"/>
+<aop-project name="spring_study"/>
 </aop-reference-model>

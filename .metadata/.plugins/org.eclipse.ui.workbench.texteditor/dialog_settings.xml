@@ -8,6 +8,8 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="logger"/>
+			<item value="h2d"/>
 			<item value="희민"/>
 			<item value="val()"/>
 			<item value="jsp"/>
@@ -21,8 +23,6 @@
 			<item value="href"/>
 			<item value="actionform"/>
 			<item value="action"/>
-			<item value="pagemaker"/>
-			<item value="amountchoice"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>
