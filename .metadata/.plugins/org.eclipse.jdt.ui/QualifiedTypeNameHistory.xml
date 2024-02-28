@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="org.zerock.mapper.BoardMapper"/>
     <fullyQualifiedTypeName name="org.zerock.service.BoardService"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-    <fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
     <fullyQualifiedTypeName name="org.zerock.domain.PageDTO"/>
     <fullyQualifiedTypeName name="org.zerock.domain.SampleVO"/>
@@ -39,4 +38,5 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="org.zerock.domain.ReplyPageDTO"/>
     <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
+    <fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
 </qualifiedTypeNameHistroy>

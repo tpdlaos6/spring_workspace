@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.zerock.domain.BoardVO;
 
 import lombok.extern.log4j.Log4j;
 
@@ -24,6 +25,12 @@ public class BoardMapperTest {
 		// List에서 한 개씩 꺼내서 boardVO() 매개변수에 저장한 다음 log.info로 출력
 		// -> 는 람다식.......... 자바에서도 람다식을.......
 		mapper.getList().forEach(boardVo -> log.info(boardVo));
+	}
+	
+	@Test
+	public void testRead() {
+		BoardVO board=mapper.read(5L);
+		log.info(board);
 	}
 
 }
