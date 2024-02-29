@@ -13,6 +13,7 @@ import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j;
 
 @Controller
+
 @RequestMapping("/board/*")
 @AllArgsConstructor
 @Log4j
@@ -26,7 +27,11 @@ public class BoardController {
 		model.addAttribute("list", service.getList());
 	}
 
-	
+	//상세보기
+	@GetMapping("/get")
+	public void get(Model model,Long bno) {
+		model.addAttribute("board", service.get(bno));
+	}
 	
 	
 	

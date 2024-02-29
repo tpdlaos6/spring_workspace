@@ -8,6 +8,11 @@
 		select * from tbl_board
 	]]>
 	</select>
+	
+	
+	<select id="read" resultType="org.zerock.domain.BoardVO">
+		select * from tbl_board where bno=#{bno}
+	</select>
 
 
 	

@@ -39,9 +39,11 @@
 	<mybatis-spring:scan
 		base-package="org.zerock.mapper" />
 
-	<!-- 액션 대신 쓰는 서비스. 이 코드를 입력해주어야, 인식이 됨 -->
+	<!-- 액션 대신 쓰는 서비스. 이 코드를 입력해주어야, 아래 경로 안에 있는 어노테이션이 붙은 클래스들이 자동으로 bean에 인식이 됨 -->
+	<!-- 개발자가 직접 모든 Bean을 파일에 일일이 등록하지 않아도, 스프링이 자동으로 Bean을 관리하게 하는 역할 -->
 	<context:component-scan
-		base-package="org.zerock.service"></context:component-scan>
+		base-package="org.zerock.service">
+	</context:component-scan>
 
 
 </beans>
