@@ -3,4 +3,5 @@
 <aop-project name="EX03"/>
 <aop-project name="HelloWorld"/>
 <aop-project name="EX5_mysql"/>
+<aop-project name="spring_study"/>
 </aop-reference-model>

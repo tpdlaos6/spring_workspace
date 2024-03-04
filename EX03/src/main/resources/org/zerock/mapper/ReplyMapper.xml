@@ -21,7 +21,7 @@
 		update tbl_reply set reply=#{reply}, replyer=#{replyer} ,updatedate=sysdate
 		where rno=#{rno}
 	</update>	
-	
+
 	<select id="getListWithPaging" resultType="org.zerock.domain.ReplyVO">
 		<![CDATA[
 		select rno,bno,reply,replyer,replydate,updatedate
@@ -36,7 +36,7 @@
 		where rn>(#{cri.pageNum}-1)*#{cri.amount}
 		]]>
 	</select>
-	
+
 	<select id="getCountByBno" resultType="int">
 		select count(rno) from tbl_reply where bno=#{bno}
 	</select>
