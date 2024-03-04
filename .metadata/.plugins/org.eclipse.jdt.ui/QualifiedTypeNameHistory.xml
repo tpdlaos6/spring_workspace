@@ -21,7 +21,6 @@
     <fullyQualifiedTypeName name="org.zerock.domain.SampleVO"/>
     <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
     <fullyQualifiedTypeName name="lombok.extern.log4j.Log4j"/>
     <fullyQualifiedTypeName name="org.zerock.mapper.ReplyMapper"/>
@@ -37,6 +36,7 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="org.zerock.domain.ReplyPageDTO"/>
-    <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
     <fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
 </qualifiedTypeNameHistroy>
