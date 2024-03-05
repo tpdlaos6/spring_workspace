@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="list"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="skip"/>
-			<item value="data"/>
+			<item value="list"/>
+			<item value="title"/>
+			<item value="pag"/>
+			<item value="typea"/>
+			<item value="type"/>
+			<item value="tostring"/>
+			<item value="body"/>
+			<item value="read"/>
+			<item value="addre"/>
+			<item value="html"/>
+			<item value="hidden"/>
+			<item value="action"/>
+			<item value="script"/>
 			<item value="mysql"/>
-			<item value="oracl"/>
-			<item value="pagenum"/>
-			<item value="get"/>
-			<item value="get page"/>
-			<item value="getto"/>
-			<item value="excl"/>
-			<item value="ora"/>
-			<item value="getTotal"/>
-			<item value="getTotalco"/>
-			<item value="desc"/>
-			<item value="order"/>
-			<item value="doctype"/>
+			<item value="jdbc"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>
