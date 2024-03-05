@@ -40,9 +40,10 @@
 	</select>
 	
 	<select id="getListWithPaging" resultType="org.zerock.domain.BoardVO">
+	<!-- mysql의 limit를 사용하여 페이징 처리. 단, limit는 연산처리가 안되는 단점이 있기에, Criteria에서 메서드 선언한 후 파라미터로 받아서 사용해야 함 -->
 		select bno, title, content, writer, regdate, updatedate
-		from tbl_board order by bno desc
-		limit #{skipCount}, #{amount}
+		from tbl_board
+		limit #{skip}, #{amount}
 	</select>
 
 
