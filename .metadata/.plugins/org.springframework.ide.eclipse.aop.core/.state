@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="mini2"/>
+<aop-project name="Sodam"/>
+<aop-project name="sosuin"/>
 <aop-project name="EX03"/>
 <aop-project name="MiniProject2"/>
 <aop-project name="HelloWorld"/>

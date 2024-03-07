@@ -54,7 +54,6 @@
 
 					<!-- form태그------------------------------------------------------------------------------>
 					<form id="actionForm" method="get">
-						<input type="hidden" name="pageNum" value="${pageMaker.cri.pageNum}">
 						<input type="hidden" name="amount" value="${pageMaker.cri.amount}">
 					</form>
 					<!-- form태그.end------------------------------------------------------------------------------>

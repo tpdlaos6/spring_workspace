@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="org.zerock.mapper.TimeMapper"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
     <fullyQualifiedTypeName name="lombok.Data"/>
@@ -15,7 +14,6 @@
     <fullyQualifiedTypeName name="org.zerock.domain.SampleDTO"/>
     <fullyQualifiedTypeName name="org.zerock.mapper.BoardMapper"/>
     <fullyQualifiedTypeName name="org.zerock.service.BoardService"/>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
     <fullyQualifiedTypeName name="org.zerock.domain.PageDTO"/>
     <fullyQualifiedTypeName name="org.zerock.domain.SampleVO"/>
     <fullyQualifiedTypeName name="java.util.stream.IntStream"/>
@@ -40,7 +38,9 @@
     <fullyQualifiedTypeName name="com.sosuin.domain.ReplyVO"/>
     <fullyQualifiedTypeName name="com.sosuin.service.ReplyService"/>
     <fullyQualifiedTypeName name="com.sosuin.mapper.ReplyMapper"/>
-    <fullyQualifiedTypeName name="com.sosuin.domain.Paging"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Param"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.sosuin.domain.Paging"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
 </qualifiedTypeNameHistroy>
