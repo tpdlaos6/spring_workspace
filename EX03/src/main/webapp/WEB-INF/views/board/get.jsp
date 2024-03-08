@@ -199,7 +199,7 @@
     	    var replyPageFooter = $(".panel-footer"); // 댓글페이징처리 번호가 출력되는 부분    
     	    
     	    
-    	    showList(pageNum); //댓글목록 출력
+    	    showList(1); //댓글목록 출력
     	    
     		
     		

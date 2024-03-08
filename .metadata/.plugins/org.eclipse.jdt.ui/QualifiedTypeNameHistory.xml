@@ -32,7 +32,6 @@
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
     <fullyQualifiedTypeName name="org.zerock.domain.ReplyPageDTO"/>
     <fullyQualifiedTypeName name="org.zerock.domain.BoardVO"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.zerock.domain.Criteria"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="com.sosuin.domain.ReplyVO"/>
@@ -43,4 +42,7 @@
     <fullyQualifiedTypeName name="com.sosuin.domain.Paging"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.support.RedirectAttributes"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.sosuin.domain.Paging2"/>
+    <fullyQualifiedTypeName name="com.sosuin.mapper.BoardMapper"/>
 </qualifiedTypeNameHistroy>
